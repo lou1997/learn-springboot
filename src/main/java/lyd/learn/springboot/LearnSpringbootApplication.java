@@ -1,6 +1,6 @@
-package com.lyd.learnspringboot;
+package lyd.learn.springboot;
 
-import com.lyd.demo.controller.SampleController;
+import lyd.learn.springboot.controller.SampleController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.MultipartConfigFactory;

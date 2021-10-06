@@ -1,10 +1,9 @@
-package com.lyd.domain;
+package lyd.learn.springboot.entity;
 //服务器配置
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
@@ -13,9 +12,9 @@ import org.springframework.stereotype.Component;
 @PropertySource({"classpath:application.properties"})
 @ConfigurationProperties(prefix = "test")
 public class ServerSettings {
-   //@Value("${name}")
+    @Value("${name}")
     private String name;  //名称
-   // @Value("${domain}")
+    @Value("${domain}")
     private String domain;  //域名地址
 
     public String getName() {
@@ -25,6 +24,10 @@ public class ServerSettings {
     public ServerSettings(String name, String domain) {
         this.name = name;
         this.domain = domain;
+    }
+
+
+    public ServerSettings() {
     }
 
     public void setName(String name) {

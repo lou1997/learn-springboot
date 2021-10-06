@@ -1,4 +1,4 @@
-package com.lyd.learnspringboot;
+package lyd.learn.springboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

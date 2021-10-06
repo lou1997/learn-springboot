@@ -1,4 +1,4 @@
-package com.lyd.demo.controller;
+package lyd.learn.springboot.controller;
 
 
 import org.springframework.web.bind.annotation.DeleteMapping;

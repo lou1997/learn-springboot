@@ -1,9 +1,7 @@
-package com.lyd.demo.controller;
+package lyd.learn.springboot.controller;
 
-import com.lyd.domain.User;
-import org.springframework.boot.SpringApplication;
+import lyd.learn.springboot.entity.User;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

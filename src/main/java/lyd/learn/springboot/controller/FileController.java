@@ -1,15 +1,12 @@
-package com.lyd.demo.controller;
+package lyd.learn.springboot.controller;
 
-import com.lyd.domain.JsonData;
-import jdk.swing.interop.SwingInterOpUtils;
+import lyd.learn.springboot.entity.JsonData;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-import org.springframework.web.servlet.tags.EditorAwareTag;
 
-import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.util.UUID;

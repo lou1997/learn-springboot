@@ -1,4 +1,4 @@
-package com.lyd.domain;
+package lyd.learn.springboot.entity;
 
 public class JsonData {
     private int code;//状态码，0表示成功，-1表示失败  可加更多

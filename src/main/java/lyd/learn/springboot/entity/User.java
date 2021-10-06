@@ -1,4 +1,4 @@
-package com.lyd.domain;
+package lyd.learn.springboot.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
