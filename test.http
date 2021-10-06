@@ -1,0 +1,12 @@
+
+###
+GET http://www.baidu.com
+
+
+###
+POST www.baidu.com
+Accept: application/json
+
+
+
+###
